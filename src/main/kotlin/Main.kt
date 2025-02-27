@@ -3,7 +3,7 @@ import org.fusesource.jansi.Ansi
 fun main() {
     // Usando Jansi para colorir a saída
     println(Ansi.ansi().fg(Ansi.Color.MAGENTA).a("╔════════════════════════════╗").reset())
-    println(Ansi.ansi().fg(Ansi.Color.MAGENTA).a("║      ✨ FiboMagic ✨       ║").reset())
+    println(Ansi.ansi().fg(Ansi.Color.MAGENTA).a("║      ✨ FiboMagic ✨      ║").reset())
     println(Ansi.ansi().fg(Ansi.Color.MAGENTA).a("╚════════════════════════════╝").reset())
 
     print(Ansi.ansi().fg(Ansi.Color.CYAN).a("Digite um número (mínimo 3): ").reset())
